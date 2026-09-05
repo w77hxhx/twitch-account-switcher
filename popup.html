@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Twitch Account Switcher</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="header">
+    <div class="logo-title">
+      <img src="icons/icon48.png" width="22" height="22" style="border-radius: 5px; display: block;" alt="Logo">
+      <span>Twitch Switcher</span>
+    </div>
+    <div class="status-indicator" id="global-status">...</div>
+  </div>
+
+  <div class="current-session-card" id="current-session-box">
+    <div class="session-label" id="lbl-current-session">Current session:</div>
+    <div class="session-info">
+      <div class="avatar-wrapper" id="current-avatar-container">
+        <div class="avatar-placeholder">?</div>
+      </div>
+      <div class="session-details">
+        <div class="session-name" id="current-user-name">...</div>
+        <div class="session-login" id="current-user-login">twitch.tv</div>
+      </div>
+      <button class="save-current-btn" id="popup-save-current">
+        + Save
+      </button>
+    </div>
+  </div>
+
+  <div class="section-title" id="lbl-saved-accounts">Saved accounts</div>
+
+  <div class="accounts-list" id="accounts-container">
+    <div class="empty-state">...</div>
+  </div>
+
+  <div class="actions-section">
+    <button class="action-button secondary" id="btn-login-other">
+      <span class="btn-icon">➕</span>
+      <span id="lbl-btn-login-other">Log in to another account...</span>
+    </button>
+    <button class="action-button primary" id="btn-open-twitch">
+      <span class="btn-icon">🌐</span>
+      <span id="lbl-btn-open-twitch">Open Twitch</span>
+    </button>
+  </div>
+
+  <script src="i18n.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
