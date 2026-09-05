@@ -5,6 +5,10 @@
 
 Fast multi-account switching browser extension and userscript for Twitch (Manifest V3 / Tampermonkey).
 
+<p align="center">
+  <img src="screenshot.png" alt="Twitch Account Switcher Preview" width="240">
+</p>
+
 ## Features
 
 - 1-click account switching directly from the Twitch user menu.
