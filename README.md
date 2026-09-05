@@ -1,5 +1,8 @@
 # <img src="icons/logo-transparent.png" width="32" height="32" valign="middle" alt="Logo"> Twitch Account Switcher
 
+[![Greasy Fork](https://img.shields.io/badge/Greasy%20Fork-v1.1.0-red.svg)](https://greasyfork.org/en/scripts/594393-twitch-account-switcher)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 Fast multi-account switching browser extension and userscript for Twitch (Manifest V3 / Tampermonkey).
 
 ## Features
@@ -33,9 +36,8 @@ Supported browsers: Google Chrome, Microsoft Edge, Brave, Opera, Vivaldi, Yandex
 
 If you use Tampermonkey, Violentmonkey, or Greasemonkey:
 
-1. Click to install directly:
-   [Install Userscript (Raw)](https://raw.githubusercontent.com/w77hxhx/twitch-account-switcher/main/twitch-account-switcher.user.js)
-2. Click **Install** in the Tampermonkey prompt.
+- **Greasy Fork:** [Twitch Account Switcher on Greasy Fork](https://greasyfork.org/en/scripts/594393-twitch-account-switcher)
+- **Direct install:** [Install Userscript (Raw .user.js)](https://raw.githubusercontent.com/w77hxhx/twitch-account-switcher/main/twitch-account-switcher.user.js)
 
 ## Usage
 

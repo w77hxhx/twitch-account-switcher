@@ -12,6 +12,8 @@
 // @run-at       document-idle
 // @updateURL    https://raw.githubusercontent.com/w77hxhx/twitch-account-switcher/main/twitch-account-switcher.user.js
 // @downloadURL  https://raw.githubusercontent.com/w77hxhx/twitch-account-switcher/main/twitch-account-switcher.user.js
+// @homepageURL  https://greasyfork.org/en/scripts/594393-twitch-account-switcher
+// @supportURL   https://github.com/w77hxhx/twitch-account-switcher/issues
 // @icon         https://raw.githubusercontent.com/w77hxhx/twitch-account-switcher/main/icons/icon48.png
 // ==/UserScript==
 
